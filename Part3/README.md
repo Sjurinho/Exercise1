@@ -10,9 +10,9 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### Why have machines become increasingly multicore in the past decade?
  > Machines have become increasingly multicore because:
- - It provides you with increased multitasking. Even though a single core can exploit concurrency to multi task to a certain extent, it has it limits. Although more complex architecture, several cores can all exploit concurrency to massively increase the multitasking possible, depending not only on sheer clockspeed.
- - Since it is hard to increase clockspeed even further, several cores can provide the same effect, thus making it possible to still follow Moore's law.
- - It is easier to detect HW errors in cores. By comparing the different cores to each other, one can easily detect and warn about HW errors in one of the cores. The same does not go for SW, since they all run the same SW.
+ > - It provides you with increased multitasking. Even though a single core can exploit concurrency to multi task to a certain extent, it has it limits. Although more complex architecture, several cores can all exploit concurrency to massively increase the multitasking possible, depending not only on sheer clockspeed.
+ > - Since it is hard to increase clockspeed even further, several cores can provide the same effect, thus making it possible to still follow Moore's law.
+ > - It is easier to detect HW errors in cores. By comparing the different cores to each other, one can easily detect and warn about HW errors in one of the cores. The same does not go for SW, since they all run the same SW.
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
