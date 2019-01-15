@@ -20,7 +20,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
- > 
+ > It may introduce some new problems, but at the same time, some problems might be easier to solve
  
  ### What are the differences between processes, threads, green threads, and coroutines?
  > Both processes and threads are independent sequences of execution, but the difference between them is that processes do not have a shared memory space, whilst threads do. Green threads are like threads, except they are scheduled by a runtime library or a virtual machine. Coroutines are cooperative, control is switched between functions that run dependently of each other. Thus it is not concurrent?
